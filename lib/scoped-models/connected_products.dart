@@ -322,7 +322,7 @@ class UserModel extends ConnectedProducts {
 
     http.Response response;
     response = await http.post(
-        'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyCUzUsJn4uoo_pAkizmOAn5iEsO3bpj3co',
+        'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=API_KEY',
         body: json.encode(authData),
         headers: {'Content-Type': 'application/json'});
 
